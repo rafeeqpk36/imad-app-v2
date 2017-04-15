@@ -8,7 +8,7 @@ var session=require('express-session');
 var config={user:'rafeeqpk36',
             database:'rafeeqpk36',
             host:'db.imad.hasura-app.io',
-            port:'5432',
+            port:'localhost:5432',
             password:process.env.DB_PASSWORD};
 var pool=new pool(config);    
             
